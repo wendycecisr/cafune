@@ -43,8 +43,10 @@ ul { list-style: none; }
     background-color: #471829;
     color: #ead0e1;
     border-radius: 5vh;
+    display: block;
     padding: 1vh 2.5vh;
     text-decoration: none;
+    text-align: center;
 }
 
 .btn_customized_basic:hover {
@@ -182,8 +184,8 @@ nav { box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.10); }
 
 /* Media queries */
 
-@media screen and (max-width: 800px) {
-    .history_img { height: 50vh; }
-    .section_img { width: 50vh; }
+@media screen and (max-width: 900px) {
+    .history_img { height: 30vh; }
+    .section_img { width: 30vh; }
     .content_products { padding: auto; }
 }
