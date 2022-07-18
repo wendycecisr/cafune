@@ -1,0 +1,4 @@
+@import '../base/extend';
+
+.history_icons { @include img-size(13vh); }
+.history_img { @include img-size(80vh); }

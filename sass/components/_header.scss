@@ -1,0 +1,6 @@
+@import '../base/mixins';
+@import '../base/extend';
+
+nav { @extend %shadow; }
+.header_logo { @include img-size(2rem); }
+

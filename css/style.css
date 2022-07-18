@@ -1,0 +1,598 @@
+/* Colores */
+/* Textos */
+/* Colores */
+/* Textos */
+/* Generales */
+section {
+  padding: 10vh;
+}
+
+*, .price {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content_center {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Botones */
+.btn_customized_basic, .btn_customized {
+  background-color: #471829;
+  color: #ead0e1;
+  border-radius: 5vh;
+  font-family: "Montserrat", sans-serif;
+  padding: 1vh 2.5vh;
+  text-decoration: none;
+}
+
+.btn_customized_basic:hover, .btn_customized:hover {
+  color: #ead0e1;
+  font-weight: bolder;
+}
+
+.btn_customized:hover {
+  animation: animation-btn 3s infinite;
+}
+
+@keyframes animation-btn {
+  0% {
+    border: 1px solid #471829;
+  }
+  50% {
+    border-radius: 0%;
+  }
+  90% {
+    color: #471829;
+    background-color: #f5ecef;
+  }
+}
+/* Textos */
+p {
+  color: #471829;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 4vh;
+}
+
+.title {
+  color: #471829;
+  font-family: "Tiro Telugu", serif;
+  font-size: 5vh;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+/* Colores */
+/* Textos */
+/* Generales */
+section {
+  padding: 10vh;
+}
+
+*, .price {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content_center {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Botones */
+.btn_customized_basic, .btn_customized {
+  background-color: #471829;
+  color: #ead0e1;
+  border-radius: 5vh;
+  font-family: "Montserrat", sans-serif;
+  padding: 1vh 2.5vh;
+  text-decoration: none;
+}
+
+.btn_customized_basic:hover, .btn_customized:hover {
+  color: #ead0e1;
+  font-weight: bolder;
+}
+
+.btn_customized:hover {
+  animation: animation-btn 3s infinite;
+}
+
+@keyframes animation-btn {
+  0% {
+    border: 1px solid #471829;
+  }
+  50% {
+    border-radius: 0%;
+  }
+  90% {
+    color: #471829;
+    background-color: #f5ecef;
+  }
+}
+/* Textos */
+p {
+  color: #471829;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 4vh;
+}
+
+.title {
+  color: #471829;
+  font-family: "Tiro Telugu", serif;
+  font-size: 5vh;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.section_img {
+  animation: move-img 3s infinite;
+  height: 70vh;
+  margin: 1%;
+}
+
+@keyframes move-img {
+  50% {
+    transform: scale(1.2);
+  }
+}
+/* Colores */
+/* Textos */
+/* Generales */
+section {
+  padding: 10vh;
+}
+
+*, .price {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content_center {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Botones */
+.btn_customized_basic, .btn_customized {
+  background-color: #471829;
+  color: #ead0e1;
+  border-radius: 5vh;
+  font-family: "Montserrat", sans-serif;
+  padding: 1vh 2.5vh;
+  text-decoration: none;
+}
+
+.btn_customized_basic:hover, .btn_customized:hover {
+  color: #ead0e1;
+  font-weight: bolder;
+}
+
+.btn_customized:hover {
+  animation: animation-btn 3s infinite;
+}
+
+@keyframes animation-btn {
+  0% {
+    border: 1px solid #471829;
+  }
+  50% {
+    border-radius: 0%;
+  }
+  90% {
+    color: #471829;
+    background-color: #f5ecef;
+  }
+}
+/* Textos */
+p {
+  color: #471829;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 4vh;
+}
+
+.title {
+  color: #471829;
+  font-family: "Tiro Telugu", serif;
+  font-size: 5vh;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.header_logo {
+  height: 2rem;
+  margin: 1%;
+}
+
+/* Colores */
+/* Textos */
+/* Generales */
+section {
+  padding: 10vh;
+}
+
+*, .price {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content_center {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Botones */
+.btn_customized_basic, .btn_customized {
+  background-color: #471829;
+  color: #ead0e1;
+  border-radius: 5vh;
+  font-family: "Montserrat", sans-serif;
+  padding: 1vh 2.5vh;
+  text-decoration: none;
+}
+
+.btn_customized_basic:hover, .btn_customized:hover {
+  color: #ead0e1;
+  font-weight: bolder;
+}
+
+.btn_customized:hover {
+  animation: animation-btn 3s infinite;
+}
+
+@keyframes animation-btn {
+  0% {
+    border: 1px solid #471829;
+  }
+  50% {
+    border-radius: 0%;
+  }
+  90% {
+    color: #471829;
+    background-color: #f5ecef;
+  }
+}
+/* Textos */
+p {
+  color: #471829;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 4vh;
+}
+
+.title {
+  color: #471829;
+  font-family: "Tiro Telugu", serif;
+  font-size: 5vh;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.history_icons {
+  height: 13vh;
+  margin: 1%;
+}
+
+.history_img {
+  height: 80vh;
+  margin: 1%;
+}
+
+/* Colores */
+/* Textos */
+/* Colores */
+/* Textos */
+/* Generales */
+section {
+  padding: 10vh;
+}
+
+*, .price {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content_center {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Botones */
+.btn_customized_basic, .btn_customized {
+  background-color: #471829;
+  color: #ead0e1;
+  border-radius: 5vh;
+  font-family: "Montserrat", sans-serif;
+  padding: 1vh 2.5vh;
+  text-decoration: none;
+}
+
+.btn_customized_basic:hover, .btn_customized:hover {
+  color: #ead0e1;
+  font-weight: bolder;
+}
+
+.btn_customized:hover {
+  animation: animation-btn 3s infinite;
+}
+
+@keyframes animation-btn {
+  0% {
+    border: 1px solid #471829;
+  }
+  50% {
+    border-radius: 0%;
+  }
+  90% {
+    color: #471829;
+    background-color: #f5ecef;
+  }
+}
+/* Textos */
+p {
+  color: #471829;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 4vh;
+}
+
+.title {
+  color: #471829;
+  font-family: "Tiro Telugu", serif;
+  font-size: 5vh;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.card {
+  margin: 4vh;
+}
+
+.content_products {
+  padding-top: 5vh;
+}
+
+.price_small-text {
+  font-size: 2vh;
+}
+
+.price {
+  color: #471829;
+  font-family: "Tiro Telugu", serif;
+  font-size: 6vh;
+  font-weight: bolder;
+}
+
+/* Colores */
+/* Textos */
+/* Colores */
+/* Textos */
+/* Generales */
+section {
+  padding: 10vh;
+}
+
+*, .price {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content_center {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Botones */
+.btn_customized_basic, .btn_customized {
+  background-color: #471829;
+  color: #ead0e1;
+  border-radius: 5vh;
+  font-family: "Montserrat", sans-serif;
+  padding: 1vh 2.5vh;
+  text-decoration: none;
+}
+
+.btn_customized_basic:hover, .btn_customized:hover {
+  color: #ead0e1;
+  font-weight: bolder;
+}
+
+.btn_customized:hover {
+  animation: animation-btn 3s infinite;
+}
+
+@keyframes animation-btn {
+  0% {
+    border: 1px solid #471829;
+  }
+  50% {
+    border-radius: 0%;
+  }
+  90% {
+    color: #471829;
+    background-color: #f5ecef;
+  }
+}
+/* Textos */
+p {
+  color: #471829;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 4vh;
+}
+
+.title {
+  color: #471829;
+  font-family: "Tiro Telugu", serif;
+  font-size: 5vh;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.footer_logo {
+  height: 2rem;
+  margin: 1%;
+  margin: 2vh;
+}
+
+.footer_rrss {
+  height: 4vh;
+  margin: 1%;
+  margin: 2vh;
+}
+
+.footer_rrss:hover {
+  transform: scale(2);
+}
+
+/* Estilos generales */
+a {
+  text-decoration: none !important;
+}
+
+.bg_primary {
+  background-color: #ead0e1;
+}
+
+.bg_secondary {
+  background-color: #f5ecef;
+}
+
+.border_bottom {
+  border-bottom: 2px #cacaca solid;
+}
+
+/* Media queries */
+@media screen and (max-width: 800px) {
+  .history_img {
+    height: 30vh;
+    margin: 1%;
+  }
+  .section_img {
+    height: 30vh;
+    margin: 1%;
+  }
+  .content_products {
+    padding: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

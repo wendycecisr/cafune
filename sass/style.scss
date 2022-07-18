@@ -1,0 +1,31 @@
+@import 'base/variables';
+@import 'base/extend';
+@import 'base/mixins';
+@import 'components/carousel';
+@import 'components/header';
+@import 'components/history';
+@import 'components/prices';
+@import 'components/footer';
+
+/* Estilos generales */
+
+* { @extend %pm }
+section { @extend %section } 
+p { @extend %paragraph }
+a { text-decoration: none !important; }
+.bg_primary { background-color: $primary; }
+.bg_secondary { background-color: $secondary; }
+.btn_customized { @extend %btn, %btn_animation; } 
+.btn_customized_basic { @extend %btn; }
+.content_center { @extend %content_center; }
+.grid-container { @extend %grid-container; }
+.title { @extend %title; }
+.border_bottom { border-bottom: 2px $gray solid; }
+
+/* Media queries */
+
+@media screen and (max-width: 800px) {
+    .history_img { @include img-size(30vh); }
+    .section_img { @include img-size(30vh); }
+    .content_products { padding: auto; }
+}

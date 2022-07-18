@@ -1,0 +1,7 @@
+@import '../base/variables';
+@import '../base/mixins';
+@import '../base/extend';
+
+.footer_logo { @include img-size(2rem); margin: 2vh; }
+.footer_rrss { @include img-size(4vh);  margin: 2vh;}
+.footer_rrss:hover { transform: scale(2); }

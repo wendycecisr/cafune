@@ -1,0 +1,15 @@
+@import '../base/variables';
+@import '../base/mixins';
+@import '../base/extend';
+
+.card { @include margin-total(4vh)}
+.content_products { @include p-top(5vh)}
+.price_small-text { font-size: 2vh; }
+
+.price {
+    color: $tertiary;
+    font-family: $title;
+    font-size: 6vh;
+    font-weight: bolder;
+    @extend %pm;
+}
