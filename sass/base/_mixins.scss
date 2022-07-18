@@ -1,0 +1,3 @@
+@mixin img-size($height) { height: $height; margin: 1%; }
+@mixin p-top($p-top) { padding-top: $p-top; }
+@mixin margin-total($margin-total) { margin: $margin-total; }

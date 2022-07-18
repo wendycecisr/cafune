@@ -1,0 +1,13 @@
+@import '../base/mixins';
+@import '../base/extend';
+
+.section_img {
+    animation: move-img 3s infinite;
+    @include img-size(70vh);
+}
+
+@keyframes move-img {
+    50% { transform: scale(1.2); }
+}
+
+.description { @extend %vertical-center; }

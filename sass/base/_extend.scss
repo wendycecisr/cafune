@@ -1,0 +1,69 @@
+@import 'variables';
+
+/* Generales */
+
+%section { padding: 10vh; }
+
+%pm { margin: 0; padding: 0; }
+
+%grid-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+%content_center {
+    align-content: center; 
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+%vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%shadow { box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2); }
+
+/* Botones */
+
+%btn {
+    background-color: $tertiary;
+    color: $primary;
+    border-radius: 5vh;
+    font-family: $paragraph;
+    padding: 1vh 2.5vh;
+    text-decoration: none;
+}
+
+%btn:hover { color: #ead0e1; font-weight: bolder; }
+
+%btn_animation:hover { animation: animation-btn 3s infinite; }
+
+@keyframes animation-btn {
+    0% { border: 1px solid $tertiary; }
+    50% { border-radius: 0%; }
+    90% { color: $tertiary; background-color: $secondary; }
+}
+
+/* Textos */
+
+%paragraph {
+    color: $tertiary;
+    font-family: $paragraph;
+    padding-bottom: 4vh;
+}
+
+%title {
+    color: $tertiary;
+    font-family: $title;
+    font-size: 5vh;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+
