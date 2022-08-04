@@ -21,6 +21,8 @@ a { text-decoration: none !important; }
 .grid-container { @extend %grid-container; }
 .title { @extend %title; }
 .border_bottom { border-bottom: 2px $gray solid; }
+.dropdown-menu { background-color: $primary !important; }
+.navbar-nav, .dropdown-menu { background-color: $primary !important; }
 
 /* Media queries */
 
